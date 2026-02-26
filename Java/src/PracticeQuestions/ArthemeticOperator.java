@@ -12,6 +12,7 @@ public class ArthemeticOperator {
         System.out.println(p);
         System.out.println(a);
         System.out.println(b);
-        System.out.println("Hello Srilanka");
+        System.out.println("Hello India");
+
     }
 }
