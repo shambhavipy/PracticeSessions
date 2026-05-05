@@ -24,7 +24,7 @@ public class Reverseastring {
 
 
     public static void main() {
-        String s = "geeksforgeeks";
+        String s = "geeksfor geeks";
         System.out.println(Reverseastring.reverseWithSpacesIntact(s));
     }
 }

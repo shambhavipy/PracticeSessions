@@ -5,28 +5,13 @@ import java.util.Collections;
 import java.util.List;
 
 public class RotateArray {
-    String name;
-    int age;
-    static int num;
-
-    public boolean SetNameAndAge(String sdnkjfn, int dfjkgef) {
-        this.name = sdnkjfn;
-        this.age = dfjkgef;
-
-        return false;
-    }
-
-    public void PrintNameAndAge() {
-        System.out.println("Name: " + this.name);
-        System.out.println("Age: " + this.age);
-    }
 
     static void rotateArr(int arr[], int d) {
         int n= arr[d];
         int arr2[] = new int[arr.length];
         int i,j;
         for(i=0; i<d; i++) {
-            for (j=2; j<arr.length;j++) {
+            for (j=2; j<arr.length-1;j++) {
                 arr2[i] = arr[j];
             }
             System.out.println(arr2[j]);

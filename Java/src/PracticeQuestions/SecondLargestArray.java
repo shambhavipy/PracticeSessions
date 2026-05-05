@@ -17,7 +17,7 @@ public class SecondLargestArray {
     }
    public static void main(String[] args) {
 
-        int[] arr = {10,10,10};
+        int[] arr = {10,5,10};
         System.out.println(secondlargest(arr));
     }
 
